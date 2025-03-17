@@ -1,0 +1,276 @@
+{
+	"code": "saw",
+	"tool": "saw",
+	"class": "CustomItemSaw",
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "saw-*" ]
+		},
+		"toolrackTransform": {
+			"translation": {
+				"x": -0.15,
+				"y": 0.05,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 1,
+				"z": -1
+			},
+			"scale": 1.35
+		},
+		"groundStorageTransform": {
+			"translation": {
+				"x": 0.03,
+				"y": -0.18,
+				"z": 0.29
+			},
+			"rotation": {
+				"x": 26,
+				"y": 90,
+				"z": -90
+			},
+			"scale": 0.88
+		},
+		"durabilitybyhandlers": {
+			"bone": 0.8,
+			"wooden": 0.9,
+			"hewn": 1.15,
+			"carpented": 1.3,
+			"iron": 1.45,
+			"steel": 1.6
+		},
+		"miningspeedbyhandlers": {
+			"bone": 1,
+			"wooden": 1,
+			"hewn": 1,
+			"carpented": 1,
+			"iron": 1,
+			"steel": 1
+		},
+		"durabilitybybindings": {
+			"none": 0.7,
+			"vines": 0.85,
+			"hewn": 1.15,
+			"rope": 1,
+			"twine": 1.15,
+			"leather": 1.3,
+			"rleather": 1.45,
+			"metal": 1.6
+		},
+		"miningspeedbybindings": {
+			"none": 0.8,
+			"vines": 0.9,
+			"hewn": 1,
+			"rope": 1,
+			"twine": 1,
+			"leather": 1,
+			"rleather": 1,
+			"metal": 1
+		},
+		"bonusdurability": {
+			"speedy": 1,
+			"reinforced": 1.2,
+			"none": 1
+		},
+		"bonusspped": {
+			"speedy": 1.2,
+			"reinforced": 1,
+			"none": 1
+		},
+		"variantGroups": {
+			"material": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "titanium" ],
+			"worktype": [ "smelted", "hammered" ],
+			"bonus": [ "none", "reinforced", "speedy" ],
+			"handle": [ "stick", "bone", "wooden", "hewn", "carpented", "iron", "steel" ],
+			"string": [ "none", "vines", "rope", "twine", "leather", "rleather", "metal" ]
+		},
+		"allowedVariants": [
+			{
+				"material": "*",
+				"worktype": "smelted",
+				"bonus": "none",
+				"handle": "*",
+				"string": "*"
+			},
+			{
+				"material": "*",
+				"worktype": "hammered",
+				"bonus": "*",
+				"handle": "*",
+				"string": "*"
+			}
+		]
+	},
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "WallHalves",
+				"wallOffY": 1,
+				"ctrlKey": true,
+				"selectionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.1,
+					"z2": 1
+				},
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 0,
+					"y2": 0,
+					"z2": 0
+				}
+			}
+		},
+		{ "name": "EntityDeconstructTool" }
+	],
+	"allowedVariants": [
+		"*"
+	],
+	"variantgroups": [
+		{
+			"code": "construction",
+			"states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "titanium" ]
+		}
+	],
+	"damagedby": [ "blockbreaking", "attacking" ],
+	"heldTpHitAnimation": "breaktool",
+
+	"tooltierbytype": {
+		"saw-copper": 2,
+		"saw-gold": 2,
+		"saw-silver": 2,
+		"saw-bismuthbronze": 3,
+		"saw-tinbronze": 3,
+		"saw-blackbronze": 3,
+		"saw-iron": 4,
+		"saw-meteoriciron": 4,
+		"saw-steel": 5
+	},
+	"miningspeedbytype": {
+		"*-stone": {
+			"wood": 3,
+			"leaves": 1.6
+		},
+		"*-copper": {
+			"wood": 4,
+			"leaves": 2.4
+		},
+		"*-bismuthbronze": {
+			"wood": 4.4,
+			"leaves": 2.6
+		},
+		"*-tinbronze": {
+			"wood": 4.6,
+			"leaves": 3
+		},
+		"*-silver": {
+			"wood": 4.6,
+			"leaves": 3
+		},
+		"*-gold": {
+			"wood": 4.6,
+			"leaves": 3
+		},
+		"*-blackbronze": {
+			"wood": 4.7,
+			"leaves": 3.1
+		},
+		"*-iron": {
+			"wood": 5,
+			"leaves": 3.2
+		},
+		"*-meteoriciron": {
+			"wood": 5.5,
+			"leaves": 3.6
+		},
+		"*-steel": {
+			"wood": 6,
+			"leaves": 4
+		}
+	},
+	"durabilitybytype": {
+		"saw-gold": 70,
+		"saw-silver": 90,
+		"saw-copper": 250,
+		"saw-tinbronze": 400,
+		"saw-bismuthbronze": 450,
+		"saw-blackbronze": 500,
+		"saw-iron": 900,
+		"saw-meteoriciron": 1200,
+		"saw-steel": 2250
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"tools": [ "*" ]
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0.0468,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -161,
+			"y": 20,
+			"z": 90
+		},
+		"scale": 2.5
+	},
+	"guiTransform": {
+		"rotate": false,
+		"translation": {
+			"x": 1,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -77,
+			"y": 47,
+			"z": -151
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.5,
+			"z": 0.38
+		},
+		"scale": 1.9
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.45,
+			"z": 0.5
+		},
+		"scale": 3.6
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.65,
+			"y": -0.62,
+			"z": -0.45
+		},
+		"rotation": {
+			"x": 90,
+			"y": -174,
+			"z": 0
+		},
+		"scale": 1
+	}
+}

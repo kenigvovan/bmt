@@ -1,0 +1,158 @@
+{
+	"code": "knifeblade",
+	"class": "STToolHead",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "smelted", "hammered" ]
+		},
+		{
+			"code": "material",
+			"states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ]
+		}
+	],
+	"heldTpUseAnimation": "interactstatic",
+	"maxstacksize": 4,
+	"shapeByType": {
+		"knifeblade-hammered-*": { "base": "game:item/tool/knife/copper" },
+		"*": { "base": "game:item/tool/knife/stoneblade" }
+	},
+	"texturesByType": {
+		"*": {
+			"material": { "base": "game:block/metal/ingot/{material}" },
+			"string": { "base": "game:block/transparent" },
+			"handle": { "base": "game:block/transparent" }
+		}
+	},
+	"attributes": {
+		"onTongTransform": {
+			"translation": {
+				"x": -0.8,
+				"y": -0.7,
+				"z": -0.68
+			},
+			"rotation": {
+				"x": 13,
+				"y": 84,
+				"z": -16
+			}
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"fpHandTransformByType": {
+		"knifeblade-smelted-*": {
+			"translation": {
+				"x": 0.1,
+				"y": 0.2,
+				"z": 0.4
+			},
+			"rotation": {
+				"x": -20,
+				"y": 71,
+				"z": 61
+			},
+			"scale": 2.77
+		},
+		"*": {
+			"translation": {
+				"x": 0.1,
+				"y": 0.4,
+				"z": 0.4
+			},
+			"rotation": {
+				"x": -20,
+				"y": 71,
+				"z": 61
+			},
+			"scale": 2.77
+		}
+	},
+	"guiTransformByType": {
+		"knifeblade-smelted-*": {
+			"rotate": false,
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -8,
+				"y": -152,
+				"z": 142
+			},
+			"origin": {
+				"x": 0.49,
+				"y": 0.06,
+				"z": 0.56
+			},
+			"scale": 3.4
+		},
+		"*": {
+			"translation": {
+				"x": 3,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -8,
+				"y": -152,
+				"z": 142
+			},
+			"origin": {
+				"x": 0.53,
+				"y": 0.05,
+				"z": 0.4
+			},
+			"scale": 3.53
+		}
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 90,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.55
+		},
+		"scale": 3.5
+	},
+	"tpHandTransformByType": {
+		"knifeblade-smelted-*": {
+			"translation": {
+				"x": -0.74,
+				"y": -0.11,
+				"z": -0.48
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -10
+			},
+			"scale": 1
+		},
+		"*": {
+			"translation": {
+				"x": -0.54,
+				"y": -0.08,
+				"z": -0.48
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -10
+			},
+			"scale": 1
+		}
+	}
+}

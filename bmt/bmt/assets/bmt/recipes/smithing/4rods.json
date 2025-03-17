@@ -1,0 +1,15 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal",
+	"allowedVariants": ["iron", "steel"] },
+	"name": "4 Rods",
+	"pattern": [[
+		"##########",
+		"__________",
+		"##########",
+		"__________",
+		"##########",
+		"__________",
+		"##########"
+		]],
+	"output": { "type": "item", "code": "bmt:rod-{metal}", "stacksize": 4 }	
+}

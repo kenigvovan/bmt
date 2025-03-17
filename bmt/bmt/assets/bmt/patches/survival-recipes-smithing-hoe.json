@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "bmt:hoehead-hammered-{metal}",
+    "file": "game:recipes/smithing/hoe.json",
+    "side": "Server"
+  }
+]

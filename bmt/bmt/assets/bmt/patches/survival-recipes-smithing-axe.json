@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "bmt:axehead-hammered-{metal}",
+    "file": "game:recipes/smithing/axe.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "bmt:shovelhead-hammered-{metal}",
+    "file": "game:recipes/smithing/shovel.json",
+    "side": "Server"
+  }
+]

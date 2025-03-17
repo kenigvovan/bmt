@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributesByType/toolmold-burned-*/drop/code",
+    "value": "bmt:{tooltype}head-smelted-{metal}",
+    "file": "game:blocktypes/clay/mold/toolmold.json",
+    "side": "Server"
+  }
+]

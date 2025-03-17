@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "bmt",
+  "name": "bmt",
+  "authors": [
+    "KenigVovan"
+  ],
+  "description": "To be added",
+  "version": "1.0.6",
+  "dependencies": {
+    "game": ""
+  }
+}

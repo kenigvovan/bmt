@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "SP",
+	ingredients: {
+		"S": { "type": "item", "code": "bmt:saw-*", isTool: true  },
+		"P": { "type": "item", "code": "game:plank-*", quantity: 2 }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	"output": { "type": "block", "code": "game:woodenpath-ns", quantity: 1  }
+}

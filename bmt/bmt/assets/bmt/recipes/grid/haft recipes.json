@@ -1,0 +1,799 @@
+[
+	{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 2 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+			"output": { "type": "item", "code": "bmt:wtoolhaft-oiled-short-wooden", "quantity": 1}
+	},
+	{
+	"ingredientPattern": "LT,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 2 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-wooden",
+			"quantity": 1
+		}
+	},
+	{
+	"ingredientPattern": "LT,L_,LF,",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 2}
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-wooden",
+			"quantity": 1
+		}
+	},
+	
+	
+	
+	
+	
+	{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 4 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-short-hewn",
+			"quantity": 2
+		}
+	},
+	{
+	"ingredientPattern": "LT,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 4 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-hewn",
+			"quantity": 2
+		}
+	},
+	{
+	"ingredientPattern": "LT,L_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 4 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-hewn",
+			"quantity": 2
+		}
+	},
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "_T,LX_F",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 6 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+			"output": {
+				"type": "item",
+				"code": "bmt:wtoolhaft-oiled-short-carpented",
+				"quantity": 3
+			}
+	},
+	{
+	"ingredientPattern": "LT,LX,_F",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 6 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-carpented",
+			"quantity": 3
+		}
+	},
+	{
+	"ingredientPattern": "LT,LX,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 6 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-carpented",
+			"quantity": 3
+		}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 1 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+			"output": {
+				"type": "item",
+				"code": "bmt:wtoolhaft-oiled-short-wooden",
+				"quantity": 1
+			}
+	},
+	{
+	"ingredientPattern": "LT,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 1 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-wooden",
+			"quantity": 1
+		}
+	},
+	{
+	"ingredientPattern": "LT,L_,LF,",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 1}
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-wooden",
+			"quantity": 1
+		}
+	},
+	
+	
+	
+	
+	
+	{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 2}
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-short-hewn",
+			"quantity": 2
+		}
+	},
+	{
+	"ingredientPattern": "LT,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 2 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-hewn",
+			"quantity": 2
+		}
+	},
+	{
+	"ingredientPattern": "LT,L_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 2 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-hewn",
+			"quantity": 2
+		}
+	},
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "_T,LX_F",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 3 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+			"output": {
+				"type": "item",
+				"code": "bmt:wtoolhaft-oiled-short-carpented",
+				"quantity": 3
+			}
+	},
+	{
+	"ingredientPattern": "LT,LX,_F",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 3 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-carpented",
+			"quantity": 3
+		}
+	},
+	{
+	"ingredientPattern": "LT,LX,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 3 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-carpented",
+			"quantity": 3
+		}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:axe-*",
+					"isTool": true
+				},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 2 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+			"output": {
+				"type": "item",
+				"code": "bmt:wtoolhaft-oiled-short-wooden",
+				"quantity": 1
+			}
+	},
+	{
+	"ingredientPattern": "LT,LF",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:axe-*",
+					"isTool": true
+				},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 2 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-wooden",
+			"quantity": 1
+		}
+	},
+	{
+	"ingredientPattern": "LT,L_,LF,",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:axe-*",
+					"isTool": true
+				},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 2}
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-wooden",
+			"quantity": 1
+		}
+	},
+	
+	
+	
+	
+	
+	{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:saw-*",
+					"isTool": true
+				},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 4 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-short-hewn",
+			"quantity": 2
+		}
+	},
+	{
+	"ingredientPattern": "LT,LF",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:saw-*",
+					"isTool": true
+				},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 4 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-hewn",
+			"quantity": 2
+		}
+	},
+	{
+	"ingredientPattern": "LT,L_,LF",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:saw-*",
+					"isTool": true
+				},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 4 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-hewn",
+			"quantity": 2
+		}
+	},
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "_T,LX_F",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:saw-*",
+					"isTool": true
+				},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 6 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+			"output": {
+				"type": "item",
+				"code": "bmt:wtoolhaft-oiled-short-carpented",
+				"quantity": 3
+			}
+	},
+	{
+	"ingredientPattern": "LT,LX,_F",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:saw-*",
+					"isTool": true
+				},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 6 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-carpented",
+			"quantity": 3
+		}
+	},
+	{
+	"ingredientPattern": "LT,LX,LF",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:saw-*",
+					"isTool": true
+				},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat", "quantity": 6 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-long-carpented",
+			"quantity": 3
+		}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:axe-*",
+					"isTool": true
+				},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 1 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+			"output": {
+				"type": "item",
+				"code": "bmt:wtoolhaft-oiled-short-wooden",
+				"quantity": 1
+			}
+	},
+	{
+	"ingredientPattern": "LT,LF",
+			"ingredients": {
+				"T": {
+					"type": "item",
+					"code": "bmt:axe-*",
+					"isTool": true
+				},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 1 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+		"output": {
+			"type": "item",
+			"code": "bmt:wtoolhaft-oiled-medium-wooden",
+			"quantity": 1
+		}
+	},
+	{
+	"ingredientPattern": "LT,L_,LF,",
+			"ingredients": {
+				"T": { "type": "item", "code": "bmt:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 1}
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+			"output": { "type": "item", "code": "bmt:wtoolhaft-oiled-long-wooden", "quantity": 1}
+	},
+	
+	
+	
+	
+	
+	{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "bmt:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 2}
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+			"output": { "type": "item", "code": "bmt:wtoolhaft-oiled-short-hewn", "quantity": 2}
+	},
+	{
+	"ingredientPattern": "LT,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "bmt:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 2 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+			"output": { "type": "item", "code": "bmt:wtoolhaft-oiled-medium-hewn", "quantity": 2}
+	},
+	{
+	"ingredientPattern": "LT,L_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "bmt:saw-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 2 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+			"output": { "type": "item", "code": "bmt:wtoolhaft-oiled-long-hewn", "quantity": 2}
+	},
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "_T,LX_F",
+			"ingredients": {
+				"T": { "type": "item", "code": "bmt:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 3 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+			"output": { "type": "item", "code": "bmt:wtoolhaft-oiled-short-carpented", "quantity": 3}
+	},
+	{
+	"ingredientPattern": "LT,LX,_F",
+			"ingredients": {
+				"T": { "type": "item", "code": "bmt:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 3 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+			"output": { "type": "item", "code": "bmt:wtoolhaft-oiled-medium-carpented", "quantity": 3}
+	},
+	{
+	"ingredientPattern": "LT,LX,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "bmt:saw-*", "isTool": true},
+				"X": { "type": "item", "code": "game:chisel-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:beeswax", "quantity": 3 }
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 3,
+			"output": { "type": "item", "code": "bmt:wtoolhaft-oiled-long-carpented", "quantity": 3}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+	"ingredientPattern": "L",
+			"ingredients": {
+				"L": { "type": "item", "code": "game:stick"},
+			},
+			    "shapeless": false,
+			"width": 1,
+			"height": 1,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-short-stick" }
+	},
+		{
+	"ingredientPattern": "L_,_L",
+			"ingredients": {
+				"L": { "type": "item", "code": "game:stick"},
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-medium-stick" }
+	},
+		{
+	"ingredientPattern": "L__,_L_,__L",
+			"ingredients": {
+				"L": { "type": "item", "code": "game:stick"},
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-long-stick" }
+	},
+	
+	
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "L",
+			"ingredients": {
+				"L": { "type": "item", "code": "game:bone"},
+			},
+			    "shapeless": false,
+			"width": 1,
+			"height": 1,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-short-bone" }
+	},
+		{
+	"ingredientPattern": "L_,_L",
+			"ingredients": {
+				"L": { "type": "item", "code": "game:bone"},
+			},
+			    "shapeless": false,
+			"width": 2,
+			"height": 2,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-medium-bone" }
+	},
+		{
+	"ingredientPattern": "L__,_L_,__L",
+			"ingredients": {
+				"L": { "type": "item", "code": "game:bone"},
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-long-bone" }
+	},
+	
+	
+	
+			{
+	"ingredientPattern": "LSI",
+			"ingredients": {
+				"L": {"type": "Item", "code": "bmt:rod-*", "name": "metal", "allowedVariants": ["iron", "steel"] },
+				"I": { "type": "Item", "code": "game:solderingiron" },
+				"S": { "type": "Item", "code": "game:solderbar-*" }
+				
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 1,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-short-{metal}" }
+	},
+		{
+	"ingredientPattern": "LSI,_L_",
+			"ingredients": {
+				"L": { "type": "item", "code": "bmt:rod-*", "name": "metal", "allowedVariants": ["iron", "steel"]},
+				"I": { "type": "Item", "code": "game:solderingiron" },
+				"S": { "type": "Item", "code": "game:solderbar-*" }
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 2,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-medium-{metal}" }
+	},
+		{
+	"ingredientPattern": "LSI,_L_,__L",
+			"ingredients": {
+				"L": { "type": "item", "code": "bmt:rod-*", "name": "metal", "allowedVariants": ["iron", "steel"]},
+				"I": { "type": "Item", "code": "game:solderingiron" },
+				"S": { "type": "Item", "code": "game:solderbar-*" }
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {"type": "Item", "code": "bmt:otoolhaft-finished-long-{metal}" }
+	},
+	
+]

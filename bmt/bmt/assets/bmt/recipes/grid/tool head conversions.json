@@ -1,0 +1,243 @@
+[
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:axehead-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:axehead-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:axehead-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:axehead-{material}" }
+	},
+	
+	
+	
+	
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:pickaxehead-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:pickaxehead-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:pickaxehead-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:pickaxehead-{material}" }
+	},
+	
+	
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:knifeblade-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:knifeblade-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:knifeblade-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:knifeblade-{material}" }
+	},
+	
+	
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:sawblade-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:sawblade-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:sawblade-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:sawblade-{material}" }
+	},
+	
+	
+	
+		{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:hammerhead-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:hammerhead-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:hammerhead-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:hammerhead-{material}" }
+	},
+	
+	
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:hoehead-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:hoehead-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:hoehead-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:hoehead-{material}" }
+	},
+	
+	
+	
+	
+	
+		{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:scythehead-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:scythehead-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:scythehead-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:scythehead-{material}" }
+	},
+	
+	
+	
+	
+		{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:prospectingpickhead-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:prospectingpickhead-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:prospectingpickhead-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:prospectingpickhead-{material}" }
+	},
+	
+		
+	
+		{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:shovelhead-smelted-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver" ] }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:shovelhead-{material}" }
+	},
+	
+	{
+	"ingredientPattern": "T__,___,___",
+			"ingredients": {
+				"T": {type: "Item", code: "bmt:shovelhead-hammered-*", "name": "material", "allowedVariants":  ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]  }
+
+			},
+			    "shapeless": false,
+			"width": 3,
+			"height": 3,
+			"output": {type: "Item", code: "game:shovelhead-{material}" }
+	},
+	
+]

@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "H	S",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:hammer-*", isTool: true  },
+			"S": { "type": "item", "code": "game:stone-*", allowedVariants: ["chalk", "marble", "limestone"] }
+		},
+		width: 1,
+		height: 2,
+		"output": { "type": "item", "code": "game:lime", quantity: 1  }
+	}
+]

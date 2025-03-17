@@ -1,0 +1,784 @@
+[ 
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*"
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:metalnailsandstrips-*"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*"
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:metalnailsandstrips-*"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:leather-sturdy-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:leather-sturdy-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+
+
+
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:rope"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:rope"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wildvine-*"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wildvine-*"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+  {
+    "ingredientPattern": "_M,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "_M,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:otoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "stick", "bone", "iron", "steel" ]
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+
+
+
+
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:rope"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:rope"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:metalnailsandstrips-*",
+        "name": "metal2",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:metalnailsandstrips-*",
+        "name": "metal2",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:leather-sturdy-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:leather-sturdy-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+
+
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wildvine-*"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "BM,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-hammered-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      },
+      "B": {
+        "type": "Block",
+        "code": "game:wildvine-*"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "_M,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "_M,H_",
+    "ingredients": {
+      "M": {
+        "type": "Item",
+        "code": "bmt:scythehead-smelted-*",
+        "name": "metal",
+        "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
+      },
+      "H": {
+        "type": "Item",
+        "code": "bmt:wtoolhaft-finished-long-*",
+        "name": "haft",
+        "allowedVariants": [ "wooden", "hewn", "carpented" ]
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Item",
+      "code": "bmt:scythe-{metal}"
+    }
+  }
+]

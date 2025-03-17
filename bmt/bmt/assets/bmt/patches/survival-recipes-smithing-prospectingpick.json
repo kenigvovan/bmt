@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "bmt:prospectingpickhead-hammered-{metal}",
+    "file": "game:recipes/smithing/prospectingpick.json",
+    "side": "Server"
+  }
+]

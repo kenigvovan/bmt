@@ -1,0 +1,24 @@
+[
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { "type": "item", "code": "bmt:saw-*", isTool: true, toolDurabilityCost: 5 },
+			"I": { "type": "item", "code": "game:ingot-leadsolder" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:solderbar-tin", quantity: 5  }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { "type": "item", "code": "bmt:saw-*", isTool: true, toolDurabilityCost: 5 },
+			"I": { "type": "item", "code": "game:ingot-silversolder" }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:solderbar-silver", quantity: 5  }
+	}
+]

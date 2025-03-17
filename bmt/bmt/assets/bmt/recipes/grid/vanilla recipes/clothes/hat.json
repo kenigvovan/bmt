@@ -1,0 +1,42 @@
+[
+	{
+		ingredientPattern: "B,K",
+		ingredients: {
+			"B": { "type": "item", "code": "game:bamboostakes", quantity: 1 },
+			"K": { "type": "item", "code": "bmt:knife-*", quantity: 1, isTool: true }
+		},
+		width: 1,
+		height: 2,
+		"output": { "type": "item", "code": "game:clothes-head-bamboo-conehat"  }
+	},
+	{
+		ingredientPattern: "BBB,K__",
+		ingredients: {
+			"B": { "type": "item", "code": "game:bamboostakes", quantity: 1 },
+			"K": { "type": "item", "code": "bmt:knife-*", quantity: 1, isTool: true }
+		},
+		width: 3,
+		height: 2,
+		"output": { "type": "item", "code": "game:clothes-head-bamboo-conehat-large"  }
+	},
+	{
+		ingredientPattern: "_B_,B_B",
+		ingredients: {
+			"B": { "type": "item", "code": "game:drygrass", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		"output": { "type": "item", "code": "game:clothes-head-straw-hat"  }
+	},
+	{
+		ingredientPattern: "_B_,BSB",
+		requiresTrait: "clothier",
+		ingredients: {
+			"B": { "type": "item", "code": "game:cloth-black", quantity: 1 },
+			"S": { "type": "item", "code": "game:sewingkit" }
+		},
+		width: 3,
+		height: 2,
+		"output": { "type": "item", "code": "game:clothes-head-tophat"  }
+	}
+]

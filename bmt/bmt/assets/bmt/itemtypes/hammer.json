@@ -1,0 +1,250 @@
+{
+	"code": "hammer",
+	"class": "CustomItemHammer",
+	"storageFlags": 257,
+	"attributes": {
+		"durabilitybyhandlers": {
+			"bone": 0.8,
+			"wooden": 0.9,
+			"hewn": 1.15,
+			"carpented": 1.3,
+			"iron": 1.45,
+			"steel": 1.6
+		},
+		"miningspeedbyhandlers": {
+			"bone": 1,
+			"wooden": 1,
+			"hewn": 1,
+			"carpented": 1,
+			"iron": 1,
+			"steel": 1
+		},
+		"durabilitybybindings": {
+			"none": 0.7,
+			"vines": 0.85,
+			"hewn": 1.15,
+			"rope": 1,
+			"twine": 1.15,
+			"leather": 1.3,
+			"rleather": 1.45,
+			"metal": 1.6
+		},
+		"miningspeedbybindings": {
+			"none": 0.8,
+			"vines": 0.9,
+			"hewn": 1,
+			"rope": 1,
+			"twine": 1,
+			"leather": 1,
+			"rleather": 1,
+			"metal": 1
+		},
+		"bonusdurability": {
+			"speedy": 1,
+			"reinforced": 1.2,
+			"none": 1
+		},
+		"bonusspped": {
+			"speedy": 1.2,
+			"reinforced": 1,
+			"none": 1
+		},
+		"variantGroups": {
+			"material": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "titanium" ],
+			"worktype": [ "smelted", "hammered" ],
+			"bonus": [ "none", "reinforced", "speedy" ],
+			"handle": [ "stick", "bone", "wooden", "hewn", "carpented", "iron", "steel" ],
+			"string": [ "none", "vines", "rope", "twine", "leather", "rleather", "metal" ]
+		},
+		"allowedVariants": [
+			{
+				"material": "*",
+				"worktype": "smelted",
+				"bonus": "none",
+				"handle": "*",
+				"string": "*"
+			},
+			{
+				"material": "*",
+				"worktype": "hammered",
+				"bonus": "*",
+				"handle": "*",
+				"string": "*"
+			}
+		],
+		"heldItemPitchFollow": 0.9,
+		"handbook": {
+			"groupBy": [
+				"hammer-copper-*",
+				"hammer-tinbronze-*",
+				"hammer-bismuthbronze-*",
+				"hammer-blackbronze-*",
+				"hammer-gold-*",
+				"hammer-silver-*",
+				"hammer-iron-*",
+				"hammer-steel-*",
+				"hammer-meteoriciron-*"
+			]
+		},
+		"toolrackTransform": {
+			"rotation": {
+				"y": 1,
+				"z": -1
+			},
+			"translation": {
+				"x": -0.2,
+				"y": 0.02
+			},
+			"scale": 1.5
+		},
+		"groundStorageTransform": {
+			"translation": {
+				"x": 0,
+				"y": -0.16,
+				"z": 0.33
+			},
+			"rotation": {
+				"x": 26,
+				"y": 88,
+				"z": -87
+			},
+			"scale": 1.01
+		}
+	},
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "WallHalves",
+				"wallOffY": 1,
+				"ctrlKey": true,
+				"selectionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.1,
+					"z2": 1
+				},
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 0,
+					"y2": 0,
+					"z2": 0
+				}
+			}
+		},
+		{ "name": "AnimationAuthoritative" }
+	],
+
+	"variantgroups": [
+		{
+			"code": "construction",
+			"states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "titanium" ]
+		}
+	],
+	"tooltierbytype": {
+		"*-copper-*": 2,
+		"*-gold-*": 2,
+		"*-silver-*": 2,
+		"*-bismuthbronze-*": 3,
+		"*-tinbronze-*": 3,
+		"*-blackbronze-*": 3,
+		"*-iron-*": 4,
+		"*-meteoriciron-*": 4,
+		"*-steel-*": 5
+	},
+	"attackpowerbytype": {
+		"hammer-stone": 1,
+		"hammer-copper": 1.25,
+		"hammer-gold": 1.5,
+		"hammer-silver": 1.5,
+		"hammer-bismuthbronze": 1.5,
+		"hammer-tinbronze": 1.75,
+		"hammer-blackbronze": 2,
+		"hammer-iron": 2.25,
+		"hammer-meteoriciron": 2.35,
+		"hammer-steel": 2.5
+	},
+	"durabilitybytype": {
+		"hammer-stone": 60,
+		"hammer-gold": 250,
+		"hammer-silver": 250,
+		"hammer-copper": 500,
+		"hammer-tinbronze": 750,
+		"hammer-bismuthbronze": 900,
+		"hammer-blackbronze": 1100,
+		"hammer-iron": 1800,
+		"hammer-meteoriciron": 2100,
+		"hammer-steel": 4500
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"tools": [ "*" ]
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0.0468,
+			"y": -0.2,
+			"z": 0
+		},
+		"rotation": {
+			"x": -33,
+			"y": 7,
+			"z": 90
+		},
+		"scale": 2.75
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -77,
+			"y": 46,
+			"z": 8
+		},
+		"origin": {
+			"x": 0.59,
+			"y": 0.5,
+			"z": 0.49
+		},
+		"scale": 2.6
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.45,
+			"z": 0.5
+		},
+		"scale": 4.5
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.65,
+			"y": -0.48,
+			"z": -0.52
+		},
+		"rotation": {
+			"x": 90,
+			"y": 1,
+			"z": 0
+		},
+		"scale": 1
+	}
+}

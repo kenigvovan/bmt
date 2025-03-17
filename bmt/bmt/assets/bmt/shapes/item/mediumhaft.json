@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"oiled": "game:item/resource/hide/oiled"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 7.5, 0.0, 7.5 ], 
+			"to": [ 9.5, 9.0, 9.5 ], 
+			"rotationOrigin": [ 7.5, 0.0, 7.5 ],
+			"faces": {
+				"north": { "texture": "#oiled", "uv": [ 7.0, 5.0, 9.0, 11.5 ], "autoUv": false },
+				"east": { "texture": "#oiled", "uv": [ 7.0, 5.0, 9.0, 11.5 ], "autoUv": false },
+				"south": { "texture": "#oiled", "uv": [ 7.0, 4.5, 8.5, 11.5 ], "autoUv": false },
+				"west": { "texture": "#oiled", "uv": [ 7.0, 5.0, 8.5, 11.0 ], "autoUv": false },
+				"up": { "texture": "#oiled", "uv": [ 7.0, 4.5, 9.0, 6.5 ], "autoUv": false },
+				"down": { "texture": "#oiled", "uv": [ 7.0, 5.0, 9.0, 7.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 0.4, 8.0, 0.15 ], 
+					"to": [ 2.1, 10.9, 1.85 ], 
+					"rotationOrigin": [ 0.4, 8.0, 0.2 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#oiled", "uv": [ 7.5, 6.5, 9.0, 9.0 ] },
+						"east": { "texture": "#oiled", "uv": [ 8.0, 7.0, 9.5, 9.5 ] },
+						"south": { "texture": "#oiled", "uv": [ 6.5, 7.5, 8.0, 10.0 ] },
+						"west": { "texture": "#oiled", "uv": [ 8.0, 7.0, 9.5, 9.5 ] },
+						"up": { "texture": "#oiled", "uv": [ 7.5, 6.5, 9.0, 8.0 ] },
+						"down": { "texture": "#oiled", "uv": [ 7.5, 6.5, 9.0, 8.0 ] }
+					},
+					"children": [
+						{
+							"name": "Cube3",
+							"from": [ -0.01, 2.6, 0.1 ], 
+							"to": [ 1.49, 5.6, 1.6 ], 
+							"rotationOrigin": [ -0.0054, 2.6, 0.1 ],
+							"rotationZ": -22.5000003066977,
+							"faces": {
+								"north": { "texture": "#oiled", "uv": [ 7.0, 6.0, 8.5, 9.0 ] },
+								"east": { "texture": "#oiled", "uv": [ 7.5, 7.0, 9.0, 10.0 ] },
+								"south": { "texture": "#oiled", "uv": [ 7.5, 6.5, 9.0, 9.5 ] },
+								"west": { "texture": "#oiled", "uv": [ 8.0, 7.0, 9.5, 10.0 ] },
+								"up": { "texture": "#oiled", "uv": [ 7.5, 7.5, 9.0, 9.0 ] },
+								"down": { "texture": "#oiled", "uv": [ 7.5, 7.0, 9.0, 8.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

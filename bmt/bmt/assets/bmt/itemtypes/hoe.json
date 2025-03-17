@@ -1,0 +1,298 @@
+{
+	"enabled": true,
+	"code": "hoe",
+	"class": "CustomItemHoe",
+	"heldTpUseAnimation": "hoe",
+	"damagedby": [ "blockbreaking", "attacking" ],
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "WallHalves",
+				"wallOffY": 1,
+				"ctrlKey": true,
+				"selectionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.1,
+					"z2": 1
+				},
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 0,
+					"y2": 0,
+					"z2": 0
+				}
+			}
+		}
+	],
+	"attributes": {
+
+		"heldItemPitchFollow": 0.5,
+		"groundStorageTransformByType": {
+			"hoe-*": {
+				"translation": {
+					"x": 0,
+					"y": 0.04,
+					"z": -0.23
+				},
+				"rotation": {
+					"x": 23,
+					"y": 87,
+					"z": -90
+				},
+				"scale": 0.88
+			},
+			"*": {
+				"translation": {
+					"x": 0,
+					"y": 0.13,
+					"z": -0.13
+				},
+				"rotation": {
+					"x": 30,
+					"y": 87,
+					"z": -90
+				},
+				"scale": 0.88
+			}
+		},
+		"handbook": {
+			"groupBy": [ "hoe-*" ]
+		},
+		"toolrackTransformByType": {
+			"hoe-*": {
+				"rotation": {
+					"y": 1,
+					"z": -1
+				},
+				"translation": {
+					"x": -0.25,
+					"y": 0.6
+				},
+				"scale": 1.25
+			},
+			"*": {
+				"rotation": {
+					"y": 1,
+					"z": -1
+				},
+				"translation": {
+					"x": -0.35,
+					"y": 0.6
+				},
+				"scale": 1.25
+			}
+		},
+		"durabilitybyhandlers": {
+			"bone": 0.8,
+			"wooden": 0.9,
+			"hewn": 1.15,
+			"carpented": 1.3,
+			"iron": 1.45,
+			"steel": 1.6
+		},
+		"miningspeedbyhandlers": {
+			"bone": 1,
+			"wooden": 1,
+			"hewn": 1,
+			"carpented": 1,
+			"iron": 1,
+			"steel": 1
+		},
+		"durabilitybybindings": {
+			"none": 0.7,
+			"vines": 0.85,
+			"hewn": 1.15,
+			"rope": 1,
+			"twine": 1.15,
+			"leather": 1.3,
+			"rleather": 1.45,
+			"metal": 1.6
+		},
+		"miningspeedbybindings": {
+			"none": 0.8,
+			"vines": 0.9,
+			"hewn": 1,
+			"rope": 1,
+			"twine": 1,
+			"leather": 1,
+			"rleather": 1,
+			"metal": 1
+		},
+		"bonusdurability": {
+			"speedy": 1,
+			"reinforced": 1.2,
+			"none": 1
+		},
+		"bonusspped": {
+			"speedy": 1.2,
+			"reinforced": 1,
+			"none": 1
+		},
+		"variantGroups": {
+			"material": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "titanium" ],
+			"worktype": [ "smelted", "hammered" ],
+			"bonus": [ "none", "reinforced", "speedy" ],
+			"handle": [ "stick", "bone", "wooden", "hewn", "carpented", "iron", "steel" ],
+			"string": [ "none", "vines", "rope", "twine", "leather", "rleather", "metal" ]
+		},
+		"allowedVariants": [
+			{
+				"material": "*",
+				"worktype": "smelted",
+				"bonus": "none",
+				"handle": "*",
+				"string": "*"
+			},
+			{
+				"material": "*",
+				"worktype": "hammered",
+				"bonus": "*",
+				"handle": "*",
+				"string": "*"
+			}
+		]
+	},
+	"skipVariants": [
+		"*-iron-smelted-*",
+		"*-steel-smelted-*",
+		"*-meteoriciron-smelted-*",
+		"*-titanium-*",
+		"*-smelted-reinforced-*",
+		"*-smelted-speedy-*"
+
+
+	],
+	"allowedVariants": [
+		"hoe-*"
+	],
+	"variantgroups": [
+		{
+			"code": "construction",
+			"states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "titanium" ]
+		}
+	],
+
+	"heldTpHitAnimation": "breaktool",
+
+	"tool": "hoe",
+	"durabilitybytype": {
+		"hoe-gold": 90,
+		"hoe-silver": 90,
+		"hoe-copper": 200,
+		"hoe-tinbronze": 280,
+		"hoe-bismuthbronze": 300,
+		"hoe-blackbronze": 330,
+		"hoe-iron": 500,
+		"hoe-meteoriciron": 600,
+		"hoe-steel": 1250
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"tools": [ "*" ]
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": -0.3,
+			"y": -0.2,
+			"z": 0
+		},
+		"rotation": {
+			"x": -7,
+			"y": 16,
+			"z": 90
+		},
+		"scale": 2.5
+	},
+	"guiTransformByType": {
+		"hoe-*": {
+			"rotate": false,
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -56,
+				"y": -127,
+				"z": -180
+			},
+			"origin": {
+				"x": 0.35,
+				"y": 0,
+				"z": 0.55
+			},
+			"scale": 1.43
+		},
+		"*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -66,
+				"y": -130,
+				"z": -180
+			},
+			"origin": {
+				"x": 0.55,
+				"y": 0,
+				"z": 0.52
+			},
+			"scale": 1.6
+		}
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 3.6
+	},
+	"tpHandTransformByType": {
+		"hoe-*": {
+			"translation": {
+				"x": -1,
+				"y": -0.5,
+				"z": -0.08
+			},
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": -5
+			},
+			"scale": 1
+		},
+		"*": {
+			"translation": {
+				"x": -0.8,
+				"y": -0.5,
+				"z": -0.1
+			},
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": -10
+			},
+			"scale": 1
+		}
+	}
+}

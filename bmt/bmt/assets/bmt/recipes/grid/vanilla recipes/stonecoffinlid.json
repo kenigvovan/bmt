@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "_H_,_C_,_SF",
+	ingredients: {
+		"H": { "type": "item", "code": "bmt:hammer-*", isTool: true },
+		"C": { "type": "item", "code": "game:chisel-*", isTool: true },
+		"S": { "type": "block", "code": "game:rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "peridotite"] },
+		"F": { "type": "item", "code": "game:powder-borax" }
+	},
+	width: 3,
+	height: 3,
+	"output": { "type": "block", "code": "game:stonecoffinlid-{rock}", quantity: 1 }
+}

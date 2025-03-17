@@ -1,0 +1,210 @@
+{
+	"code": "otoolhaft",
+	"class": "STHaft",
+	"maxstacksize": 4,
+	"dimensions": {
+		"width": 0.0625,
+		"height": 0.0625,
+		"length": 0.0625
+	},
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true
+	},
+	"variantgroups": [
+		{
+			"code": "state",
+			"states": [ "oiled", "finished" ]
+		},
+		{
+			"code": "lenght",
+			"states": [ "short", "medium", "long" ]
+		},
+		{
+			"code": "type",
+			"states": [ "stick", "bone", "iron", "steel" ]
+		}
+
+	],
+	"skipVariants": [
+		"*-oiled-*"
+	],
+	"storageflags": 5,
+	"shape": { "base": "bmt:item/{lenght}haft" },
+	"texturesByType": {
+		"*-finished-*-iron": { "oiled": { "base": "game:item/tool/shield/metal/iron" } },
+		"*-finished-*-steel": { "oiled": { "base": "game:item/tool/shield/metal/steel" } },
+		"*-finished-*-bone": { "oiled": { "base": "game:block/creature/bone-yellow" } },
+		"*-finished-*-stick": { "oiled": { "base": "game:item/tool/material/handle" } }
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"fpHandTransformByType": {
+		"*-short-*": {
+			"translation": {
+				"x": -1.25,
+				"y": -0.1,
+				"z": 0
+			},
+			"rotation": {
+				"x": 180,
+				"y": 96,
+				"z": 144
+			},
+			"origin": {
+				"x": 1.5,
+				"y": 0.5,
+				"z": 0.8
+			}
+		},
+		"*-medium-*": {
+			"translation": {
+				"x": 0.05,
+				"y": -0.1,
+				"z": -0.1
+			},
+			"rotation": {
+				"x": 128,
+				"y": 89,
+				"z": 178
+			},
+			"scale": 1.66
+		},
+		"*-long-*": {
+			"translation": {
+				"x": -0.05,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 180,
+				"y": 75,
+				"z": 59
+			},
+			"scale": 1.25
+		}
+	},
+	"tpHandTransformByType": {
+		"*-short-*": {
+			"translation": {
+				"x": -1.7,
+				"y": -1.5,
+				"z": -1.4
+			},
+			"rotation": {
+				"x": 3,
+				"y": -15,
+				"z": 90
+			}
+		},
+		"*-medium-*": {
+			"translation": {
+				"x": -1.6,
+				"y": -0.75,
+				"z": -0.75
+			},
+			"rotation": {
+				"x": 1,
+				"y": -2,
+				"z": -72
+			},
+			"origin": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.5
+			},
+			"scale": 0.65
+		},
+		"*-long-*": {
+			"translation": {
+				"x": -0.8,
+				"y": 0,
+				"z": -0.575
+			},
+			"rotation": {
+				"x": 0,
+				"y": -5,
+				"z": 18
+			},
+			"scale": 0.87
+		}
+	},
+	"guiTransformByType": {
+		"*-short-*": {
+			"translation": {
+				"x": 1,
+				"y": -12.1,
+				"z": 0
+			},
+			"rotation": {
+				"x": 2,
+				"y": 3,
+				"z": -138
+			},
+			"origin": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": -2
+			},
+			"scale": 2.08
+		},
+		"*-medium-*": {
+			"translation": {
+				"x": -4,
+				"y": -4.1,
+				"z": 0
+			},
+			"rotation": {
+				"x": 2,
+				"y": 3,
+				"z": -138
+			},
+			"origin": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": -2
+			},
+			"scale": 2.08
+		},
+		"*-long-*": {
+			"translation": {
+				"x": -22,
+				"y": 21,
+				"z": 0
+			},
+			"rotation": {
+				"x": 90,
+				"y": -46,
+				"z": 5
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.5,
+				"z": 0.5299
+			},
+			"scale": 2.24
+		}
+	},
+	"groundTransformByType": {
+		"*-long-*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.5,
+				"z": 0.5299
+			},
+			"scale": 3.66
+		}
+	}
+}

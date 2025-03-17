@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "bmt:pickaxehead-hammered-{metal}",
+    "file": "game:recipes/smithing/pickaxe.json",
+    "side": "Server"
+  }
+]

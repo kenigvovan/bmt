@@ -1,0 +1,15 @@
+{
+	ingredientPattern: "HLS,PBP,PRP",
+	enabled: false,
+	ingredients: {
+		"H": { "type": "item", "code": "bmt:hammer-*", isTool: true, toolDurabilityCost: 20 },
+		"S": { "type": "item", "code": "bmt:saw-*", isTool: true, toolDurabilityCost: 10 },
+		"B": { "type": "block", "code": "game:barrel" },
+		"R": { "type": "item", "code": "game:resin" },
+		"L": { "type": "item", "code": "game:leather" },
+		"P": { "type": "item", "code": "game:plank-*", name: "wood", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	"output": { "type": "block", "code": "game:churn-south-opened", quantity: 1 }
+}

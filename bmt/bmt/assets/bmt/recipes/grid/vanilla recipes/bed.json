@@ -1,0 +1,34 @@
+[
+	{
+		ingredientPattern: "L__	HHH	WWW",
+		ingredients: {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"H": { "type": "block", "code": "game:hay-normal-ud" },
+			"W": { "type": "item", "code": "game:plank-*", quantity: 2 },
+		},
+		width: 3,
+		height: 3,
+		"output": { "type": "block", "code": "game:bed-wood-head-north" }
+	},
+	{
+		ingredientPattern: "HHH",
+		ingredients: {
+			"H": { "type": "block", "code": "game:hay-normal-ud" }
+		},
+		width: 3,
+		height: 1,
+		"output": { "type": "block", "code": "game:bed-hay-head-north" }
+	},
+	{
+		ingredientPattern: "HK",
+		ingredients: {
+			"H": { "type": "block", "code": "game:bed-hay-head-north" },
+			"K": { "type": "item", "code": "bmt:knife-*", isTool: true, toolDurabilityCost: 3 },
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:drygrass", quantity: 18 }
+	},
+]

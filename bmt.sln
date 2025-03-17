@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "bmt\CakeBuild\CakeBuild.csproj", "{CC6AF7E9-5826-44A5-9781-BE5ECFC19835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bmt", "bmt\bmt\bmt.csproj", "{F2A910DF-8293-4EC8-9D0D-16D131497446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC6AF7E9-5826-44A5-9781-BE5ECFC19835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6AF7E9-5826-44A5-9781-BE5ECFC19835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6AF7E9-5826-44A5-9781-BE5ECFC19835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6AF7E9-5826-44A5-9781-BE5ECFC19835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A910DF-8293-4EC8-9D0D-16D131497446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A910DF-8293-4EC8-9D0D-16D131497446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A910DF-8293-4EC8-9D0D-16D131497446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A910DF-8293-4EC8-9D0D-16D131497446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FB47DD0-65EE-4ACF-A0B6-58988D5FC50A}
+	EndGlobalSection
+EndGlobal

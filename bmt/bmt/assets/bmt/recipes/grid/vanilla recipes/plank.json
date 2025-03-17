@@ -1,0 +1,70 @@
+[
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { "type": "item", "code": "bmt:saw-*", isTool: true  },
+			"L": { "type": "block", "code": "game:log-placed-*-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:plank-{wood}", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { "type": "item", "code": "bmt:saw-*", isTool: true  },
+			"L": { "type": "block", "code": "game:logsection-placed-*-ne-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:plank-{wood}", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { "type": "item", "code": "bmt:saw-*", isTool: true  },
+			"L": { "type": "block", "code": "game:planks-*-ud", name: "wood", skipVariants: ["agedebony", "rottenebony"] }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:plank-{wood}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { "type": "item", "code": "bmt:saw-*", isTool: true  },
+			"L": { "type": "block", "code": "game:planks-*-ns", name: "wood", skipVariants: ["agedebony", "rottenebony"] }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:plank-{wood}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { "type": "item", "code": "bmt:saw-*", isTool: true  },
+			"L": { "type": "block", "code": "game:plankstairs-*-up-north-free", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:plank-{wood}", quantity: 3  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { "type": "item", "code": "bmt:saw-*", isTool: true  },
+			"L": { "type": "block", "code": "game:plankslab-*-down-free", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		"output": { "type": "item", "code": "game:plank-{wood}", quantity: 2  }
+	}
+]

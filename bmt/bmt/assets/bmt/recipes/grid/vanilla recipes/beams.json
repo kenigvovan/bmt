@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:saw-*", isTool: true  },
+			"L": { "type": "block", "code": "game:debarkedlog-*-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		"output": { "type": "block", "code": "game:supportbeam-{wood}", quantity: 3  }
+	}
+]

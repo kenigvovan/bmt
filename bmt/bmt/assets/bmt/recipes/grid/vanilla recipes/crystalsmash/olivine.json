@@ -1,0 +1,81 @@
+[
+	{
+		ingredientPattern: "HC",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:hammer-*", isTool: true },
+			"C": { "type": "block", "code": "game:crystal-olivine-small1-up" }
+		},
+		shapeless: true,
+		width: 2,
+		height: 1,
+		"output": { "type": "item", "code": "game:ore-olivine", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HC",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:hammer-*", isTool: true },
+			"C": { "type": "block", "code": "game:crystal-olivine-small2-up" }
+		},
+		shapeless: true,
+		width: 2,
+		height: 1,
+		"output": { "type": "item", "code": "game:ore-olivine", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HC",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:hammer-*", isTool: true },
+			"C": { "type": "block", "code": "game:crystal-olivine-small3-up" }
+		},
+		shapeless: true,
+		width: 2,
+		height: 1,
+		"output": { "type": "item", "code": "game:ore-olivine", quantity: 3  }
+	},
+	
+	{
+		ingredientPattern: "HC",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:hammer-*", isTool: true },
+			"C": { "type": "block", "code": "game:crystal-olivine-cluster1-up" }
+		},
+		shapeless: true,
+		width: 2,
+		height: 1,
+		"output": { "type": "item", "code": "game:ore-olivine", quantity: 5  }
+	},
+	{
+		ingredientPattern: "HC",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:hammer-*", isTool: true },
+			"C": { "type": "block", "code": "game:crystal-olivine-cluster2-up" }
+		},
+		shapeless: true,
+		width: 2,
+		height: 1,
+		"output": { "type": "item", "code": "game:ore-olivine", quantity: 5  }
+	},
+	
+	{
+		ingredientPattern: "HC",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:hammer-*", isTool: true },
+			"C": { "type": "block", "code": "game:crystal-olivine-large1-up" }
+		},
+		shapeless: true,
+		width: 2,
+		height: 1,
+		"output": { "type": "item", "code": "game:ore-olivine", quantity: 7 }
+	},
+	{
+		ingredientPattern: "HC",
+		ingredients: {
+			"H": { "type": "item", "code": "bmt:hammer-*", isTool: true },
+			"C": { "type": "block", "code": "game:crystal-olivine-large2-up" }
+		},
+		shapeless: true,
+		width: 2,
+		height: 1,
+		"output": { "type": "item", "code": "game:ore-olivine", quantity: 7  }
+	}
+]

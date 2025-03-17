@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "bmt:knifeblade-hammered-{metal}",
+    "file": "game:recipes/smithing/knife.json",
+    "side": "Server"
+  }
+]

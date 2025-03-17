@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "K,P",
+	shapeless: true,
+	ingredients: {
+		"K": { "type": "item", "code": "bmt:knife-*", isTool: true },
+		"P": { "type": "block", "code": "game:pumpkin-fruit-4" }
+	},
+	width: 1,
+	height: 2,
+	"output": { "type": "item", "code": "game:vegetable-pumpkin", quantity: 4  }
+}
