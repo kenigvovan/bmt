@@ -62,6 +62,15 @@
   "item-saw-iron": "Iron saw",
   "item-saw-meteoriciron": "Meteoric iron saw",
   "item-saw-steel": "Steel saw",
+  "item-pickaxe-copper": "Copper pickaxe",
+  "item-pickaxe-tinbronze": "Tin bronze pickaxe",
+  "item-pickaxe-bismuthbronze": "Bismuth bronze pickaxe",
+  "item-pickaxe-blackbronze": "Black bronze pickaxe",
+  "item-pickaxe-gold": "Golden pickaxe",
+  "item-pickaxe-silver": "Silver pickaxe",
+  "item-pickaxe-iron": "Iron pickaxe",
+  "item-pickaxe-meteoriciron": "Meteoric iron pickaxe",
+  "item-pickaxe-steel": "Steel pickaxe",
   "item-prospectingpick-copper": "Copper prospecting pick",
   "item-prospectingpick-tinbronze": "Tin bronze prospecting pick",
   "item-prospectingpick-bismuthbronze": "Bismuth bronze prospecting pick",
@@ -88,5 +97,11 @@
   "knifeblade": "knife blade",
   "hoehead": "hoe head",
   "hammerhead": "hammer head",
-  "axehead": "axe head"
+  "axehead": "axe head",
+  "worktype": "worktype: ",
+  "smelted": "smelted",
+  "hammered": "hammered",
+  "bonus": "bonus: ",
+  "handle": "handle: ",
+  "stri": "string: "
 }

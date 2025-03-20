@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
+using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
@@ -110,6 +111,15 @@ namespace sometools.src
         public override void GetHeldItemInfo(ItemSlot inSlot, StringBuilder dsc, IWorldAccessor world, bool withDebugInfo)
         {
             base.GetHeldItemInfo(inSlot, dsc, world, withDebugInfo);
+            string worktype = inSlot.Itemstack.Attributes.GetString("worktype", "smelted");
+            string bonus = inSlot.Itemstack.Attributes.GetString("bonus", "none");
+            string handle = inSlot.Itemstack.Attributes.GetString("handle", "stick");
+            string stri = inSlot.Itemstack.Attributes.GetString("stri", "none");
+            string wts = Lang.Get("bmt:worktype") + worktype ;
+            string bn = Lang.Get("bmt:bonus") + bonus;
+            string hnd = Lang.Get("bmt:handle") + handle;
+            string st = Lang.Get("bmt:stri") + stri;
+            dsc.Append(wts + ", " + bn + ", " + hnd + ", " + st);
         }
         private JsonItemStack genJstack(string json)
         {

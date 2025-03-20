@@ -64,7 +64,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -91,7 +90,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -123,7 +121,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -150,7 +147,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -184,7 +180,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -211,7 +206,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -242,7 +236,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -269,7 +262,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -299,7 +291,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -326,7 +317,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       },
       "B": {
@@ -355,7 +345,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       }
     },
@@ -378,7 +367,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:otoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "stick", "bone", "iron", "steel" ]
       }
     },
@@ -409,7 +397,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -437,7 +424,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -465,7 +451,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -494,7 +479,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -525,7 +509,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -552,7 +535,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -580,7 +562,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -607,7 +588,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -637,7 +617,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -664,7 +643,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -693,7 +671,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -720,7 +697,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       },
       "B": {
@@ -747,7 +723,6 @@
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       }
     },
@@ -763,14 +738,13 @@
     "ingredients": {
       "M": {
         "type": "Item",
-        "code": "bmt:scythehead-smelted-*",
+        "code": "bmt:scythehead-hammered-*",
         "name": "metal",
         "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver" ]
       },
       "H": {
         "type": "Item",
         "code": "bmt:wtoolhaft-finished-long-*",
-        "name": "haft",
         "allowedVariants": [ "wooden", "hewn", "carpented" ]
       }
     },
