@@ -111,15 +111,40 @@ namespace sometools.src
         public override void GetHeldItemInfo(ItemSlot inSlot, StringBuilder dsc, IWorldAccessor world, bool withDebugInfo)
         {
             base.GetHeldItemInfo(inSlot, dsc, world, withDebugInfo);
+            string material = inSlot.Itemstack.Item.LastCodePart();
             string worktype = inSlot.Itemstack.Attributes.GetString("worktype", "smelted");
             string bonus = inSlot.Itemstack.Attributes.GetString("bonus", "none");
             string handle = inSlot.Itemstack.Attributes.GetString("handle", "stick");
             string stri = inSlot.Itemstack.Attributes.GetString("stri", "none");
-            string wts = Lang.Get("bmt:worktype") + worktype ;
-            string bn = Lang.Get("bmt:bonus") + bonus;
-            string hnd = Lang.Get("bmt:handle") + handle;
-            string st = Lang.Get("bmt:stri") + stri;
-            dsc.Append(wts + ", " + bn + ", " + hnd + ", " + st);
+
+            if (!bonus.Equals("none") && !stri.Equals("none")) 
+            {
+                dsc.Append(Lang.Get("A {0} {1} Axe with a {2} handle and {3} bindings", Lang.Get("bmt:bonus-" + bonus),
+                                                                                            Lang.Get("game:material-" + material),
+                                                                                            Lang.Get("bmt:handle-" + handle),
+                                                                                            Lang.Get("bmt:binding-" + stri)));
+                return;
+            }
+            else if (bonus.Equals("none") && !stri.Equals("none"))
+            {
+                dsc.Append(Lang.Get("A {0} Axe with a {1} handle and {2} bindings", Lang.Get("game:material-" + material),
+                                                                                            Lang.Get("bmt:handle-" + handle),
+                                                                                            Lang.Get("bmt:binding-" + stri)));
+                return;
+            }
+            else if (!bonus.Equals("none") && stri.Equals("none"))
+            {
+                dsc.Append(Lang.Get("A {0} {1} Axe with a {2} handle", Lang.Get("bmt:bonus-" + bonus),
+                                                                                            Lang.Get("game:material-" + material),
+                                                                                            Lang.Get("bmt:handle-" + handle)));
+                return;
+            }
+            else if (bonus.Equals("none") && stri.Equals("none"))
+            {
+                dsc.Append(Lang.Get("A {0} Axe with a {1} handle", Lang.Get("game:material-" + material),
+                                                                                            Lang.Get("bmt:handle-" + handle)));
+                return;
+            }
         }
         private JsonItemStack genJstack(string json)
         {
