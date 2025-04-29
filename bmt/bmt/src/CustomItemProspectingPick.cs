@@ -15,7 +15,7 @@ using Vintagestory.GameContent;
 
 namespace bmt.src
 {
-    public class CustomItemProspectingPick: ItemProspectingPick
+    public class CustomItemProspectingPick: ItemProspectingPick, IContainedMeshSource
     {
         public string Construction
         {

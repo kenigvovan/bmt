@@ -2,6 +2,8 @@
 	"code": "hammer",
 	"class": "CustomItemHammer",
 	"storageFlags": 257,
+	"tool": "hammer",
+	"damagedby": [ "blockbreaking", "attacking" ],
 	"attributes": {
 		"durabilitybyhandlers": {
 			"bone": 0.8,

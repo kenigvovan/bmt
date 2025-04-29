@@ -15,7 +15,7 @@ using Vintagestory.GameContent;
 
 namespace bmt.src
 {
-    public class CustomItemHoe: ItemHoe
+    public class CustomItemHoe: ItemHoe, IContainedMeshSource
     {
         public string Construction
         {

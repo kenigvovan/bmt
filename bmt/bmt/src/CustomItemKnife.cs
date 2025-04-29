@@ -15,7 +15,7 @@ using Vintagestory.GameContent;
 
 namespace bmt.src
 {
-    public class CustomItemKnife: ItemKnife
+    public class CustomItemKnife: ItemKnife, IContainedMeshSource
     {
         public string Construction
         {

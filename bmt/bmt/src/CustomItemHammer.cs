@@ -15,7 +15,7 @@ using Vintagestory.GameContent;
 
 namespace bmt.src
 {
-    public class CustomItemHammer: ItemHammer
+    public class CustomItemHammer: ItemHammer, IContainedMeshSource
     {
         public string Construction
         {

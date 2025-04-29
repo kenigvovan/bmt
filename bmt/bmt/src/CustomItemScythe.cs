@@ -15,7 +15,7 @@ using Vintagestory.GameContent;
 
 namespace bmt.src
 {
-    public class CustomItemScythe: ItemScythe
+    public class CustomItemScythe: ItemScythe, IContainedMeshSource
     {
         public string Construction
         {

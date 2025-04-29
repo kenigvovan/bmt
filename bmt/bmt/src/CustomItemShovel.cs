@@ -12,10 +12,11 @@ using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
+using Vintagestory.GameContent;
 
 namespace bmt.src
 {
-    public class CustomItemShovel: Item
+    public class CustomItemShovel: Item, IContainedMeshSource
     {
         public string Construction
         {

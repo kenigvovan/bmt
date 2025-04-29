@@ -11,10 +11,11 @@ using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
+using Vintagestory.GameContent;
 
 namespace bmt.src
 {
-    public class CustomItemSaw: Item
+    public class CustomItemSaw: Item, IContainedMeshSource
     {
         public string Construction
         {
