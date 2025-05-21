@@ -83,7 +83,7 @@ namespace sometools.src
                 }
                 else if (it.Itemstack.Item != null && it.Itemstack.Item.Code.Path.Equals("rope"))
                 {
-                    stri = "metal";
+                    stri = "rope";
                 }
             }
 
@@ -101,7 +101,7 @@ namespace sometools.src
         {
             string bonus = itemstack.Attributes.GetString("bonus", "none");
             string handle = itemstack.Attributes.GetString("handle", "stick");
-            string stri = itemstack.Attributes.GetString("string", "none");
+            string stri = itemstack.Attributes.GetString("stri", "none");
             float rateSpeed = 1;
             rateSpeed *= miningspeedbyhandlers.Get(handle, 1);
             rateSpeed *= miningspeedbybindings.Get(stri, 1);
@@ -162,8 +162,8 @@ namespace sometools.src
             this.miningspeedbyhandlers = this.Attributes["miningspeedbyhandlers"].AsObject<Dictionary<string, float>>(null);
             this.durabilitybybindings = this.Attributes["durabilitybybindings"].AsObject<Dictionary<string, float>>(null);
             this.miningspeedbybindings = this.Attributes["miningspeedbybindings"].AsObject<Dictionary<string, float>>(null);
-            this.bonusdurability = this.Attributes["durabilitybyhandlers"].AsObject<Dictionary<string, float>>(null);
-            this.bonusspped = this.Attributes["durabilitybyhandlers"].AsObject<Dictionary<string, float>>(null);
+            this.bonusdurability = this.Attributes["bonusdurability"].AsObject<Dictionary<string, float>>(null);
+            this.bonusspped = this.Attributes["bonusspeed"].AsObject<Dictionary<string, float>>(null);
             AddAllTypesToCreativeInventory();
         }
         public void AddAllTypesToCreativeInventory()

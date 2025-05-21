@@ -19,7 +19,6 @@ namespace sometools.src
                 return Lang.Get("bmt:material-" + material) + " " + Lang.Get("bmt:" + toolType);
             }
             return Lang.Get("game:material-" + material) + " " + Lang.Get("bmt:" + toolType);
-            //return base.GetHeldItemName(itemStack);
         }
     }
 }
